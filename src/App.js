@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SearchMovies from './components/Search';
 
 function App() {
   return (
     <div className='container'>
-      <h1 className='title'>Hello World</h1>
+      <h1 className='title'>React Movie Search</h1>
+      <SearchMovies />
     </div>
   );
 }
